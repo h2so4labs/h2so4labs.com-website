@@ -1,0 +1,444 @@
+:root {
+  --tolak-white: #060414;
+  --tolak-white-rgb: toRGB(#060414);
+  --tolak-black: #fff;
+  --tolak-black-rgb: toRGB(#fff);
+  --tolak-text: #c1c1c1;
+  --tolak-text-rgb: toRGB(#c1c1c1);
+  --tolak-gray: #051d1f;
+  --tolak-gray-rgb: toRGB(#051d1f);
+  --tolak-gray3: #636363;
+  --tolak-gray3-rgb: toRGB(#636363);
+  --tolak-black2: #051d1f;
+  --tolak-black2-rgb: toRGB(#051d1f);
+}
+
+.why-choose-two__item__rm:hover,
+.main-header-four.sticky-header--cloned,
+.pricing-one__card:hover .pricing-one__card__icon,
+.topbar-two__left__title,
+.main-header-two.sticky-header--cloned,
+.service-one__item:hover .service-one__item__icon,
+.funfact-one__item--two,
+.blog-card__bg::after,
+.main-header-three__btn.tolak-btn span,
+.feature-four .tolak-stretch-element-inside-column,
+.about-three__content__quote,
+.cta-six__content,
+.testimonials-card-two__top,
+.cta-five__bg::before,
+.team-card-two::after,
+.team-card-two:hover:after,
+.skill-one__content__list li span,
+.mail-section-two__wrapper,
+.main-footer-two .footer-widget--about-two .footer-widget__social a,
+.demo-one__card,
+.main-header-two__inner__bg-one,
+.service-two__item__hover__content,
+.funfact-two__icon,
+.about-two__tabs li,
+.about-two__content__list li span,
+.about-two__content__image__bg,
+.faq-one,
+.project-two__item__image::after,
+.cta-four__bg::before,
+.work-process-one,
+.cta-three__bg,
+.background-black,
+.topbar-one,
+.feature-one__item__top-ball,
+.cta-one__bg,
+.service-one__item__top-shape,
+.about-one,
+.contact-one__wrapper {
+  background-color: var(--tolak-black2);
+}
+
+.blog-card-three__image__link,
+.service-two__item__hover__image::after,
+.work-process-one__item__hover::after,
+.blog-card-two__image__link,
+.project-one__item__image::after,
+.service-one__item__hover::after,
+.team-card__image::after,
+.blog-card__image__link {
+  background-color: rgba(6, 4, 20, 0.75);
+}
+
+.main-footer-two .footer-widget--about-two .footer-widget__social a:hover,
+.why-choose-two__item__rm,
+.pricing-one__card__icon,
+.client-carousel__one__item:hover {
+  background-color: var(--tolak-base);
+}
+
+.faq-one__accordion .active .accrodion-title h4 i,
+.tolak-btn:hover {
+  color: var(--tolak-base);
+}
+
+.team-card-two__social,
+.why-choose-one,
+.testimonials-two,
+.footer-widget--about-two .footer-widget__social a,
+.main-slider-two,
+.testimonials-card__bg,
+.testimonials-one__bg,
+.sidebar-one__content,
+.pricing-one__card,
+.footer-widget__social a,
+.main-footer__bottom {
+  background-color: var(--tolak-white);
+}
+
+.feature-three__item__hover,
+.contact-two__wrapper,
+.blog-card-three,
+.main-slider-two__social,
+.service-two__item__normal__content,
+.blog-card-two__meta,
+.blog-card-two__content,
+.feature-one__item,
+.funfact-one__accordion .accrodion + .accrodion,
+.funfact-one__accordion,
+.project-one__item__content,
+.service-one__item__icon,
+.service-one__item__bottom,
+.service-one__item,
+.why-choose-two__item,
+.blog-card,
+.mail-section__wrapper,
+.about-four__tabs,
+.client-carousel {
+  border-color: rgba(var(--tolak-border-color-rgb), 0.25);
+}
+
+.main-slider-three__btn .tolak-btn,
+.contact-two__info__social__wrap a,
+.contact-two__info__box__icon,
+.cta-four__bg,
+.cta-four__content__bar,
+.blog-card-two__image__link::before,
+.blog-card-two__image__link::after,
+.main-slider-one__carousel .owl-dots .owl-dot:hover span,
+.main-slider-one__carousel .owl-dots .owl-dot.active span,
+.team-card__social__list a,
+.faq-one__accordion .active .accrodion-title h4 i,
+.blog-card__image__link::before,
+.blog-card__image__link::after,
+.main-slider-four__btn .tolak-btn--one,
+.main-slider-four__sub-title,
+.main-header-four__toggler span,
+.main-header-four__logo {
+  background-color: var(--tolak-black);
+}
+
+.cta-six__author img,
+.contact-two__info__box-wrapper,
+.service-two__item__hover__rm,
+.funfact-two__item:hover .funfact-two__icon::after,
+.funfact-two__icon::after,
+.project-two__item__rm,
+.work-process-one__item:hover .work-process-one__item__thumb,
+.cta-three__author img,
+.main-slider-one__carousel .owl-dots .owl-dot span,
+.funfact-one__item::after,
+.faq-one__accordion .active .accrodion-title h4 i,
+.pricing-one__card:hover::after {
+  border-color: var(--tolak-black);
+}
+
+.about-four__content__btn .video-popup,
+.why-choose-two__item__icon,
+.team-card-two__social > i,
+.team-card-two:hover .team-card-two__designation,
+.team-card-two:hover .team-card-two__title,
+.pricing-one__card:hover .pricing-one__card__icon,
+.cta-two__info__icon,
+.feature-two__item__icon,
+.main-slider-three__btn .tolak-btn:hover,
+.main-slider-three__btn .video-popup,
+.main-slider-three__text,
+.main-slider-three__title,
+.about-three__content__btn .video-popup,
+.about-three__fact__text,
+.about-three__fact__count,
+.about-three__fact__icon,
+.cta-six__content__text,
+.why-choose-one__item__title,
+.why-choose-one__content .sec-title-two__title,
+.cta-five__content__icon,
+.cta-five__content__title,
+.team-card-two__social__list a:hover,
+.team-card-two:hover .team-card-two__social > i,
+.skill-one__content__skill .graph-outer .count-box,
+.skill-one__content__list li:hover span,
+.feature-three__item__icon,
+.feature-three__item__link:hover,
+.feature-three__item__link,
+.feature-three__item__normal__text,
+.feature-three__item__normal__title,
+.feature-three .sec-title-two__title,
+.contact-two__info__social__title,
+.contact-two__info__box__text,
+.contact-two__info__box__title,
+.contact-two__info__text,
+.contact-two__info__title,
+.blog-card-three__image__link i:hover,
+.blog-card-three__image__link i,
+.blog-card-three__date,
+.mail-section-two__content__title,
+.mail-section-two__content__icon,
+.main-slider-two__social__wrap a:hover,
+.main-slider-two__social__wrap a,
+.service-two__item__hover__rm:hover,
+.service-two__item__hover__rm,
+.service-two__item__hover__icon,
+.service-two__item__normal__icon,
+.funfact-two__item:hover .funfact-two__icon,
+.funfact-two__icon,
+.about-two__tabs li:hover,
+.about-two__tabs li.active-btn,
+.about-two__tabs li,
+.about-two__fact__icon,
+.about-two__fact__count,
+.about-two__fact__text,
+.about-two__content__list li:hover span,
+.project-two__filter li:hover,
+.project-two__filter li.active,
+.project-two__filter li,
+.project-two__item__rm:hover,
+.project-two__item__rm,
+.project-two__item__number,
+.project-two__item__title,
+.project-two__item__text,
+.cta-four__content .sec-title-two__title,
+.cta-four__content .video-popup,
+.work-process-one__item:hover .work-process-one__item__rm:hover,
+.work-process-one__item:hover .work-process-one__item__rm,
+.work-process-one__item:hover .work-process-one__item__title,
+.work-process-one__item__thumb__number,
+.testimonials-one .sec-title-two__title,
+.cta-three__content__title,
+.blog-card-two__meta__date,
+.main-footer-two__bottom__list li,
+.main-slider-one__project__title,
+.main-slider-one__project__number,
+.main-slider-one__project__icon,
+.main-slider-one__social a:hover,
+.main-slider-one__social a,
+.main-slider-one__text__one,
+.main-slider-one__title,
+.main-slider-one__social__title,
+.feature-one__item:hover .feature-one__item__icon,
+.feature-one__item__year,
+.cta-one__box__title,
+.about-one__image__text,
+.about-one__content__btn .tolak-btn:hover,
+.about-one__video-btn .video-popup,
+.about-one__content__btn__text,
+.about-one__content__list li span,
+.about-one__content .sec-title__title,
+.funfact-one__accordion .active .accrodion-title__icon::before,
+.funfact-one__accordion .active .accrodion-title h4 i,
+.funfact-one__accordion .active .accrodion-title h4,
+.funfact-one__item__text,
+.funfact-one__item__count,
+.project-one__item__image__rm:hover,
+.contact-one__content .sec-title__title,
+.contact-one__info__text,
+.contact-one__info__title,
+.contact-one__info__icon,
+.sidebar-one__newsletter button[type=submit],
+.sidebar-one__social a:hover,
+.sidebar-one__social a,
+.sidebar-one__title,
+.sidebar-one__close,
+.service-one__item:hover .service-one__item__bottom__rm,
+.service-one__item:hover .service-one__item__title,
+.service-one__item__icon,
+.cta-two__content__title a:hover,
+.cta-two__info__text,
+.cta-two__info__title,
+.cta-two__content__title,
+.cta-two__call-text,
+.why-choose-two__item__rm,
+.our-solution__list ul li span,
+.our-solution__list__title,
+.our-solution__box__icon,
+.our-solution__content .sec-title__title,
+.team-card__social__list a:hover,
+.faq-one__accordion .active .accrodion-title__icon::before,
+.faq-one__accordion .active .accrodion-title h4,
+.faq-one__content__list li span,
+.faq-one__content .sec-title-two__title,
+.pricing-one__card .tolak-btn:hover,
+.pricing-one__card:hover .pricing-one__card__price,
+.pricing-one__card:hover .pricing-one__card__title,
+.pricing-one__card__price,
+.pricing-one__card__title,
+.pricing-one__card__icon,
+.testimonials-three .sec-title-two__title,
+.blog-card__meta__date,
+.footer-widget__posts__title,
+.footer-widget__title,
+.footer-widget__social a:hover,
+.footer-widget__social a,
+.service-one--home-four .sec-title-two__title,
+.about-four__content__list li:hover span,
+.about-four__tabs__list li:hover,
+.about-four__tabs__list li.active-btn,
+.about-four__fact__text,
+.about-four__fact__count,
+.about-four__fact__icon,
+.main-slider-four__btn .tolak-btn--one:hover,
+.main-slider-four__text,
+.main-slider-four__title-two,
+.main-header-four__call__number,
+.main-header-four__cart__count,
+.main-menu .main-menu__list li ul li > a,
+.tolak-btn,
+.main-header-four__social a,
+.main-header-four__social__title {
+  color: var(--tolak-black);
+}
+
+.main-slider-one__floating-text,
+.main-slider-four__title {
+  -webkit-text-stroke-color: var(--tolak-black);
+}
+
+.blog-card:hover {
+  border-style: dashed;
+}
+
+.work-process-one__item::after,
+.cta-two__bg,
+.pricing-one__card::before {
+  background-color: #122438;
+}
+
+.main-header__cart,
+.main-header__search,
+.main-menu .main-menu__list > li > a,
+.cta-two__content__text {
+  color: var(--tolak-text-dark);
+}
+
+.main-header__toggler span {
+  background-color: var(--tolak-text-dark);
+}
+
+.main-menu .main-menu__list li ul li.current > a,
+.main-menu .main-menu__list li ul li:hover > a {
+  background-color: var(--tolak-black2);
+  color: var(--tolak-text-dark);
+}
+
+.service-one__item__icon,
+.service-one--home-four .service-one__item {
+  background-color: transparent;
+}
+
+.main-slider-one__social a,
+.form-one .bootstrap-select > .dropdown-toggle,
+.form-one input[type=text],
+.form-one input[type=email],
+.form-one textarea,
+.sidebar-one__newsletter input[type=text],
+.sidebar-one__social a {
+  background-color: RGBA(255, 255, 255, 0.2);
+}
+
+.mail-section__newsletter input[type=text],
+.feature-two__item,
+.main-header__right,
+.contact-two__content .form-one .bootstrap-select > .dropdown-toggle,
+.contact-two__content .form-one input[type=text],
+.contact-two__content .form-one input[type=email],
+.contact-two__content .form-one textarea {
+  border-color: RGBA(255, 255, 255, 0.2);
+}
+
+.feature-one__item:hover {
+  box-shadow: 0px 3px 16px 0px rgba(255, 255, 255, 0.13);
+}
+
+.why-choose-one__item {
+  background-color: RGBA(255, 255, 255, 0.07);
+}
+
+.why-choose-one__item::after {
+  border: 12px solid rgba(255, 255, 255, 0.28);
+}
+
+.cta-six__content::after {
+  border: 12px solid rgba(255, 255, 255, 0.17);
+}
+
+.main-slider-one__bg-svg rect {
+  stroke: var(--tolak-black2);
+}
+
+.main-header-four__logo::before {
+  border-color: transparent transparent var(--tolak-black) transparent;
+}
+
+.contact-two__info__box-wrapper::after,
+.main-header-four__logo::after {
+  border-color: transparent transparent transparent var(--tolak-black);
+}
+
+.feature-four .tolak-stretch-element-inside-column::before,
+.faq-one__content__image::after {
+  border-color: transparent var(--tolak-black2) transparent transparent;
+}
+
+.testimonials-card-two__top::after {
+  border-color: var(--tolak-black2) transparent transparent transparent;
+}
+
+.pricing-one__card__icon,
+.funfact-two__item {
+  border-color: var(--tolak-black2);
+}
+
+.about-two::after {
+  background-image: url(../images/shapes/about-2-shape-3-dark.png);
+}
+
+.feature-three__item__image::after {
+  background-image: linear-gradient(0deg, rgb(5, 29, 31) 0%, rgba(5, 29, 31, 0) 100%);
+}
+
+.skill-one__image__text {
+  background-color: rgba(5, 29, 31, 0.82);
+  border: 5px solid rgba(255, 255, 255, 0.82);
+}
+
+.pricing-one__card:hover .pricing-one__card__icon {
+  border-color: var(--tolak-base);
+}
+
+.mail-section__wrapper::after {
+  background-color: rgba(var(--tolak-border-color-rgb), 0.25);
+}
+
+.mail-section__newsletter button span {
+  background-color: var(--tolak-black4);
+}
+
+.main-footer-two__bg::after {
+  background-color: rgba(6, 4, 20, 0.89);
+}
+
+.main-header-two__inner__bg-two::after {
+  background-color: rgba(5, 29, 31, 0.88);
+}
+
+.main-header-four.sticky-header--cloned,
+.main-header-two.sticky-header--cloned,
+.sticky-header--cloned {
+  box-shadow: 0px 3px 18px rgba(255, 255, 255, 0.1);
+}
+/*# sourceMappingURL=tolak-dark.css.map */
