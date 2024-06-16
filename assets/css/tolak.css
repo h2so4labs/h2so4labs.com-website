@@ -5229,15 +5229,17 @@ h6 {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  background-color: var(--tolak-white, #fff);
+  /* background-color: var(--tolak-white, #fff); */
   z-index: 2;
   padding: 16px 20px;
-  margin-left: 95px;
+  /* margin-left: 95px; */
+  margin-left: 30px;
 }
 
 @media (max-width: 1599px) {
   .main-header-four__logo {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 30px;
   }
 }
 
@@ -5249,6 +5251,7 @@ h6 {
 }
 
 .main-header-four__logo::before {
+  display: none;
   position: absolute;
   left: -25px;
   bottom: 0;
@@ -5261,6 +5264,9 @@ h6 {
 }
 
 .main-header-four__logo::after {
+  display: none;
+
+
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -17417,7 +17423,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .about-four__tabs {
   position: relative;
-  padding: 0 0 0 70px;
+  /* padding: 0 0 0 70px; */
   border-bottom: 1px solid var(--tolak-border-color, #dddddd);
 }
 
@@ -17435,12 +17441,12 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
   white-space: nowrap;
-  writing-mode: vertical-rl;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  /* writing-mode: vertical-rl; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* bottom: 0; */
 }
 
 @media (max-width: 767px) {
@@ -17461,7 +17467,9 @@ body.megamenu-popup-active .mobile-nav__content {
   font-weight: 500;
   transition: all 0.5s ease;
   letter-spacing: 0.21px;
-  padding: 17px 2px;
+  /* padding: 17px 2px; */
+  padding: 6px 14px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
