@@ -18849,12 +18849,12 @@ body.megamenu-popup-active .mobile-nav__content {
 --------------------------------------------------------------*/
 .project-details {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 @media (max-width: 767px) {
   .project-details {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 
@@ -19789,4 +19789,33 @@ body.boxed-wrapper .cta-one__bg__shape {
 
 .tolak-logo-header {
   width: 65px;
+}
+
+
+
+/* ADDED BY RAJAT  */
+.problems-bullet-point-li {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.problems-bullet-point-li {
+  font-size: 2rem;
+}
+
+.solution-by-h2so4-title {
+  font-size: 2.5rem;
+}
+
+.text-lightgreen {
+  color: lightgreen;
+}
+
+.about-rms-section-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-rms-section-wrapper-image {
+  height: 22rem;
 }
