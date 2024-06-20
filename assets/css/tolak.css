@@ -13305,7 +13305,8 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: var(--tolak-black, #051d1f);
   position: relative;
   border-radius: 0 0 0 180px;
-  margin-bottom: 85px;
+  /* margin-bottom: 85px; */
+  margin-bottom: 0;
 }
 
 @media (max-width: 1199px) {
@@ -13325,11 +13326,11 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   right: 0;
   height: 100%;
-  width: 63.4%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
-  background-image: url(../images/backgrounds/page-header-bg-1-1.png);
+  background-image: url(../images/product/hero.jpeg);
 }
 
 @media (max-width: 1199px) {
@@ -13346,7 +13347,7 @@ body.megamenu-popup-active .mobile-nav__content {
   right: 0;
   top: 0;
   background-color: var(--tolak-black, #051d1f);
-  opacity: 0.9;
+  opacity: 0.4;
 }
 
 .page-header__shape {
@@ -13437,7 +13438,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .page-header__layer {
   position: absolute;
   right: -30px;
-  bottom: -85px;
+  bottom: -0px;
   z-index: 3;
 }
 
@@ -13474,6 +13475,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .page-header__layer__bg {
+  display: none;
   width: 517px;
   height: 170px;
   background-color: var(--tolak-base, #3d72fc);
@@ -19826,4 +19828,74 @@ body.boxed-wrapper .cta-one__bg__shape {
 
 .about-rms-section-wrapper-image {
   height: 22rem;
+}
+
+
+
+.logoMarqueeSection {
+  padding-top: 0;
+  padding-bottom: 20vh;
+}
+
+#logoMarqueeSection {
+  max-width: 1920px!important;
+  margin: 0 auto;
+}
+
+.default-content-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    width: 100%;
+    min-height: 100vh;
+}
+
+div.marquee>a>img {
+  height: 120px;
+}
+
+.logoMarqueeSection>div>div {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 0;
+}
+
+.marquee-wrapper {
+  display:  inline-block;
+  white-space: nowrap;
+}
+
+.marquee {
+    display:  inline-block;
+    white-space: nowrap;
+    position: relative;
+    transform: translate3d(0%, 0, 0);
+    animation-name: marquee;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.marquee a {
+    display:  inline-block;
+    white-space: nowrap;
+    padding-right: 5.4rem;
+}
+
+.marquee-wrapper:hover .marquee {
+    animation-play-state: paused !important;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
 }
