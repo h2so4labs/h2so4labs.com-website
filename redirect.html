@@ -15,7 +15,9 @@
     console.log(url);;
     let redirect = url.split('redirect.html#')[1]
     console.log(redirect)
-    window.location.replace(redirect);
+    if (redirect.startsWith('/'))
+        redirect = redirect.substring(1)
+    window.location.href = redirect;
 </script>
 
 </html>
